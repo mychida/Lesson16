@@ -19,7 +19,7 @@ class SampleTest {
         @Test
         @DisplayName("引数エラー")
         void fail() {
-        	assertThrows(IllegalArgumentException.class, () -> Sample.getColor(99));
+        	assertThrows(IllegalArgumentException.class, () -> Sample.getColor(99)); //
         }
 	}
 
